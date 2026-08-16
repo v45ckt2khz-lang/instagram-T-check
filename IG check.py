@@ -299,10 +299,10 @@ elif '"authenticated":true' in req_login.text:
             req_swap = requests.post(url_swap, data=data_swap, headers=headers_swap).text
             if '{"status":"ok"' in req_swap:
                 print(Fore.RED+f'[+] {Fore.BLUE}*{Fore.BLUE}************************************** {Fore.RED}[+]')
-                print(Fore.RED+f' {Fore.YELLOW}    Username Found ==> : {Fore.GREEN}{file}')
-                print(Fore.RED+f' {Fore.YELLOW}    Username Done Swap ==> : {Fore.GREEN}{file}')
+                print(Fore.RED+f' {Fore.YELLOW}    Username Found ==> : {Fore.GREEN}{f.1c}')
+                print(Fore.RED+f' {Fore.YELLOW}    Username Done Swap ==> : {Fore.GREEN}{f.1c}')
                 print(Fore.RED+f'[+] {Fore.BLUE}*{Fore.BLUE}************************************** {Fore.RED}[+]')
-            f.1c:
+f.1c:
                 
                 Username =f.1c
 f.1c'"user":true' in req: print(Fore.RED+f'[=f.1c
