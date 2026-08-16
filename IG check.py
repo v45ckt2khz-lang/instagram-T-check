@@ -289,14 +289,12 @@ elif '"authenticated":true' in req_login.text:
                 'x-instagram-ajax': '1cb44f68ffec',
                 'x-requested-with': 'XMLHttpRequest',
             }
-            data_swap = {
-                'first_name': first_name,
-                'email': email,
-                'username': file,
-                'phone_number': phone_number,
-                'biography': biography,
-                'external_url': external_url,
-                'chaining_enabled': 'on'
+            data_swap =f.1c
+'first_name':s
+'email':alfaisal773@gmail.com
+ 'username':f.1c
+'phone_number':93250463
+'biogra                'chaining_enabled': 'on'
             }
             req_swap = requests.post(url_swap, data=data_swap, headers=headers_swap).text
             if '{"status":"ok"' in req_swap:
@@ -304,7 +302,6 @@ elif '"authenticated":true' in req_login.text:
                 print(Fore.RED+f' {Fore.YELLOW}    Username Found ==> : {Fore.GREEN}{file}')
                 print(Fore.RED+f' {Fore.YELLOW}    Username Done Swap ==> : {Fore.GREEN}{file}')
                 print(Fore.RED+f'[+] {Fore.BLUE}*{Fore.BLUE}************************************** {Fore.RED}[+]')
-            else:
-                print(f'[-] Error Swap The Username ==> : {file}')
-        elif '"user":true' in req:
-            print(Fore.RED+f'[=] Username Taken ==> : {file}')
+            f.1c:
+                print(f'[-] Error Swap The Username ={f.1c}')
+               f.1cv'"user":true' in req: print(Fore.RED+f'[=f.1cv
