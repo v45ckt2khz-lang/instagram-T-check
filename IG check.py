@@ -304,5 +304,8 @@ elif '"authenticated":true' in req_login.text:
                 print(Fore.RED+f'[+] {Fore.BLUE}*{Fore.BLUE}************************************** {Fore.RED}[+]')
 f.1c:
                 
-                Username =f.1c
-f.1c'"user":true' in req: print(Fore.RED+f'[=f.1c
+Username =f.1c
+=f.1c'"user":true' in req: print(Fore.RED+f'[=f.1c   =f.1c.(avalible()
+finish =time.(perf_counter()
+print(' '*25,'\033[95m','Finished in ' + 
+str(round(finish-start, 2)))
