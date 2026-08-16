@@ -288,19 +288,20 @@ elif '"authenticated":true' in req_login.text:
                 'x-ig-www-claim': 'hmac.AR3P8eA45g5ELL3lqdIm-DHKY2MSY_kGWkN0tGEwG2Ks9Ncl',
                 'x-instagram-ajax': '1cb44f68ffec',
                 'x-requested-with': 'XMLHttpRequest',
-            }
-            data_swap =f.1c
+            
+ =f.1c
 'first_name':s
 'email':alfaisal773@gmail.com
  'username':f.1c
 'phone_number':93250463
-'biogra                'chaining_enabled': 'on'
+'biograchaining_enabled':'on'
             
 raq_swap: = requests.po
-t(url_swap, data=data_swap, headers=headers_swap).text
-            if '{"status":"ok"' in req_swap:
+(=f.1c)_swap, data=data_swap, headers=headers_swap).text
+if '{"status":"ok"' in req_swap:
 (Fore.RED+f'[+] {Fore.BLUE}*{Fore.BLUE}************************************** {Fore.RED}[+]')
-(Fore.RED+f' {Fore.YELLOW}    Username Found ==> : {Fore.GREEN}{f.1c}')
+(Fore.RED+f' {Fore.YELLOW} 
+Username Found ==> : {Fore.GREEN}{f.1c}')
                 print(Fore.RED+f' {Fore.YELLOW}    Username Done Swap ==> : {Fore.GREEN}{f.1c}')
                 print(Fore.RED+f'[+] {Fore.BLUE}*{Fore.BLUE}************************************** {Fore.RED}[+]')
 f.1c:
