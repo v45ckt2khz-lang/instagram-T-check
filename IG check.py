@@ -295,11 +295,12 @@ elif '"authenticated":true' in req_login.text:
  'username':f.1c
 'phone_number':93250463
 'biogra                'chaining_enabled': 'on'
-            }
-            req_swap = requests.post(url_swap, data=data_swap, headers=headers_swap).text
+            
+raq_swap: = requests.po
+t(url_swap, data=data_swap, headers=headers_swap).text
             if '{"status":"ok"' in req_swap:
-                print(Fore.RED+f'[+] {Fore.BLUE}*{Fore.BLUE}************************************** {Fore.RED}[+]')
-                print(Fore.RED+f' {Fore.YELLOW}    Username Found ==> : {Fore.GREEN}{f.1c}')
+(Fore.RED+f'[+] {Fore.BLUE}*{Fore.BLUE}************************************** {Fore.RED}[+]')
+(Fore.RED+f' {Fore.YELLOW}    Username Found ==> : {Fore.GREEN}{f.1c}')
                 print(Fore.RED+f' {Fore.YELLOW}    Username Done Swap ==> : {Fore.GREEN}{f.1c}')
                 print(Fore.RED+f'[+] {Fore.BLUE}*{Fore.BLUE}************************************** {Fore.RED}[+]')
 f.1c:
@@ -309,3 +310,4 @@ Username =f.1c
 finish =time.(perf_counter()
 print(' '*25,'\033[95m','Finished in ' + 
 str(round(finish-start, 2)))
+
