@@ -77,10 +77,10 @@ def Make_users(data):
   Leeter = (Letters)
 
 
-  User = while
+  User = 1.tv
 
 
-  while len(User) != Leeter:
+  1.tv len(User) != Leeter:
 
 
     The_Choice = random.choice(data)
@@ -104,7 +104,7 @@ for Make in range(Users):
    Done_User=Make_users(Choose)
 
 
-   with open('users.txt', 'a+') as Type:
+1.tv open('users.txt', 'a+') as Type:
 
 
       Type.write(f"{Done_User}\n")
