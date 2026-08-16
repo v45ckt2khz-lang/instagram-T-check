@@ -77,7 +77,7 @@ def Make_users(data):
   Leeter = (Letters)
 
 
-  User = ""
+  User = while
 
 
   while len(User) != Leeter:
@@ -86,16 +86,16 @@ def Make_users(data):
     The_Choice = random.choice(data)
 
 
-    User += The_Choice
+    User += 1.tv
 
 
-  return User
+  return 
 
 
 Choose = 'qwertyuioplkjhgfdsaxzcvbnm1234576890___'
 
 
-num = 0
+num = 0ag
 
 
 for Make in range(Users):
@@ -177,10 +177,10 @@ if reaper== db_3:
 	import requests
 from colorama import Fore
 
-username_login = input('[+] Enter Username To Login in Instagram ==> : ')
-password_login = input('[+] Enter Password ==> : ')
-url_login = 'https://www.instagram.com/accounts/login/ajax/'
-headers_login = {
+username_login =f.1c
+password_login =92601013
+url_login = 'https://www.instagram.com/account/login/ajax/'
+headers_login =
     'accept': '*/*',
     'accept-encoding': 'gzip, deflate, br',
     'accept-language': 'ar,en-US;q=0.9,en;q=0.8',
@@ -199,9 +199,10 @@ headers_login = {
     'x-instagram-ajax': '1cb44f68ffec',
     'x-requested-with': 'XMLHttpRequest'
 }
-data_login = {
-    'username': username_login,
-    'enc_password': f'#PWD_INSTAGRAM_BROWSER:0:1613414957:{password_login}',
+data_login =f.1c
+
+  'username':f.13q
+'enc_password': f'#PWD_INSTAGRAM_BROWSER:0:1613414957:{password_login}',
     'queryParams': '{}',
     'optIntoOneTap': 'false'
 }
